@@ -17,6 +17,16 @@
 5. Note: we use gh setup-node@v2 action which supports caching for npm. For this to work, the `package-lock.json` must be part of the repository. The hash of this file is used as a cache reference.
 6. If everything is setup, try re-run the last action (which might fail the first time, if the coveralls secret was added after commiting the gh action).
 
+optional: Integration of codefactor: just add the repository... and use the following 'ignore pattern'.:
+
+Settings -> Ignore Files -> Exclude Pattern:
+```
+vite.config.ts
+.github/**
+tests/**
+```
+
+
 # Publishing with NPM
 
 1. Log in to your npm account (check with `npm whoami`) using `npm login`
