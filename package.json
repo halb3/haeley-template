@@ -1,5 +1,5 @@
 {
-    "name": "haeley-template",
+    "name": "@haeley/template",
     "version": "0.0.0",
     "license": "MIT",
     "description": "Template for a TypeScript library for the haeley real-time rendering framework.",
@@ -17,11 +17,11 @@
     ],
     "bugs": {
         "email": "cgdaniel@outlook.com",
-        "url": "https://github.com/halb3/haeley-template/issues"
+        "url": "https://github.com/halb3/template/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/halb3/haeley-template.git"
+        "url": "git+https://github.com/halb3/template.git"
     },
     "maintainers": [
         {
