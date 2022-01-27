@@ -1,5 +1,5 @@
 {
-    "name": "haeley-template",
+    "name": "@haeley/template",
     "version": "0.0.0",
     "license": "MIT",
     "description": "Template for a TypeScript library for the haeley real-time rendering framework.",
