@@ -5,7 +5,7 @@
     "[json]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 4,
-        "editor.autoIndent": false,
+        "editor.autoIndent": "advanced",
         "editor.formatOnSave": false
     },
     "files.associations": {
